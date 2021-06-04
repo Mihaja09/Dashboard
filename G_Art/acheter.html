@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Achats</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../fonticons/css/font-awesome.css">
+</head>
+<body>
+	<div class="tout">
+<!-- Header begin -->        
+		<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-sm headnav">
+                        <div class="navbar-brand mr-auto">
+                            <a href="../G_Art/acheter.html" class="logo">Shop'Z</a>
+                        </div>
+                        <div class="mx-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../G_Art/acheter.html">Gestion des articles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../G_Tiers/list_clients.html">Gestion des tiers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ml-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="" title="Mon compte">
+                                        <i class="fa fa-user-circle ikonop"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../login.html" title="Se déconnecter">
+                                        <i class="fa fa-sign-out ikonop"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>                
+            </div>
+        
+<!-- Header end -->        
+<!-- Corps begin -->
+            <div class="row">
+<!-- Navigation gauche begin-->                
+                <div class="col-md-3">
+                    <div class="sidenavi">
+                        <p>Approvisionnement</p>
+                        <ul class="barnav">
+                            <li>
+                                <a href="acheter.html" class="active">
+                                    <i class="fa fa-cart-plus"></i> &nbsp;Acheter
+                                
+                                </a>
+                            </li>
+                            <li>
+                                <a href="liste_achats.html">
+                                    <i class="fa fa-list"></i> &nbsp;Liste des achats
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidenavi">
+                        <p>Stock</p>
+                        <ul class="barnav">
+                            <li>
+                                <a href="stock.html">
+                                    <i class="fa fa-dropbox"></i> Liste des articles
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidenavi">
+                        <p>Caisse</p>
+                        <ul class="barnav">
+                            <li>
+                                <a href="caisse.html">
+                                    <i class="fa fa-credit-card"></i> &nbsp;Liste des ventes
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidenavi">
+                        <p>Charges</p>
+                        <ul class="barnav">
+                            <li>
+                                <a href="ajout_charge.html">
+                                    <i class="fa fa-calculator"></i> &nbsp;Ajout</a>
+                            </li>
+                            <li>
+                                <a href="liste_charges.html">
+                                    <i class="fa fa-list"></i> &nbsp;Liste des charges</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Navigation gauche end -->
+                <!-- Contenu begin -->
+                <div class="col-md-9">
+                    <div class="formul">
+                        <div class="entete">
+                            <h2>Passer une commande</h2> 
+                        </div>
+                        <div>
+                            <form>
+                                <div class="form-group">
+                                <label for="ref">Référence:</label>
+                                <input type="text" class="form-control" id="ref" name="">
+                                </div>
+                                <div class="form-group">
+                                <label for="nmprod">Nom du produit:</label>
+                                <input type="text" class="form-control" id="nmprod" name="">
+                                </div>
+                                <div class="form-group">
+                                <label for="pxun">Prix unitaire [MGA]:</label>
+                                <input type="number" class="form-control" id="pxun" name="">
+                                </div>
+                                <div class="form-group">
+                                <label for="qtt">Quantité:</label>
+                                <input type="number" class="form-control" id="qtt" name="">
+                                </div>
+                                <div class="form-group">
+                                <label for="dates">Date:</label>
+                                <input type="date" class="form-control" id="dates" name="">
+                                </div>
+                                <button type="submit" class="btn formbouton">Passer la commande</button>
+                            </form>
+                        </div>
+                    </div>    
+                </div>
+<!-- Contenu end -->
+            </div>
+        
+<!-- Corps end -->
+<!-- Footer begin -->        
+            <div class="row footer">
+                <div class="col-md-12">
+                    <p>
+                        Copyright &copy; 2021 by Mihaja
+                    </p>
+                </div>
+            </div>        
+<!-- Footer end -->        
+        </div>
+    </div>
+</body>
+</html>
